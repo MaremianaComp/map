@@ -1,14 +1,15 @@
 // Инициализируем карту
 const map = new maplibregl.Map({
   container: 'map',
-  style: {
-   "version": 8,
-   "sources": {},
-   "layers": []
- },
+style: "https://raw.githubusercontent.com/gtitov/basemaps/refs/heads/master/voyager-nolabels.json",
+//   style: {
+//    "version": 8,
+//    "sources": {},
+//    "layers": []
+//  },
   center: [98, 55],
   zoom: 4,
-maxZoom: 12,
+// maxZoom: 12,
     minZoom: 2,
 });
 
@@ -44,7 +45,7 @@ map.on('load', () => {
                 6, '#D7BDE2',
                 '#E8F0F2'
 			],
-'fill-opacity': 0.8,
+'fill-opacity': 0,
             'fill-outline-color': '#FFFFFF'
         }
     });
@@ -61,49 +62,49 @@ map.on('load', () => {
         }
     });
 
-	map.addSource('rivers', {
-        type: 'geojson',
-        data: './data/rivers.geojson'
-    });
+	// map.addSource('rivers', {
+    //     type: 'geojson',
+    //     data: './data/rivers.geojson'
+    // });
 
-    map.addLayer({
-        id: 'rivers-layer',
-        type: 'line',
-        source: 'rivers',
-        paint: {
-            'line-color': '#4A90E2',
-            'line-width': 1.5,
-            'line-opacity': 0.7
-        }
-    });
+    // map.addLayer({
+    //     id: 'rivers-layer',
+    //     type: 'line',
+    //     source: 'rivers',
+    //     paint: {
+    //         'line-color': '#4A90E2',
+    //         'line-width': 1.5,
+    //         'line-opacity': 0.7
+    //     }
+    // });
 
-    map.addSource('lakes', {
-        type: 'geojson',
-        data: './data/lakes.geojson'
-    });
+//     map.addSource('lakes', {
+//         type: 'geojson',
+//         data: './data/lakes.geojson'
+//     });
 
-    map.addLayer({
-        id: 'lakes-layer',
-        type: 'fill',
-        source: 'lakes',
-        paint: {
-            'fill-color': '#7CB5EC',
-            'fill-opacity': 0.7,
-            'fill-outline-color': '#4A90E2',
-        }
-    });
+//     map.addLayer({
+//         id: 'lakes-layer',
+//         type: 'fill',
+//         source: 'lakes',
+//         paint: {
+//             'fill-color': '#7CB5EC',
+//             'fill-opacity': 0.7,
+//             'fill-outline-color': '#4A90E2',
+//         }
+//     });
 
-// Границы озёр
-map.addLayer({
-    id: 'lakes-outline',
-    type: 'line',
-    source: 'lakes',
-    paint: {
-         'line-color': '#2E5C8A',
-            'line-width': 2,
-            'line-opacity': 0.8
-    }
-});
+// // Границы озёр
+// map.addLayer({
+//     id: 'lakes-outline',
+//     type: 'line',
+//     source: 'lakes',
+//     paint: {
+//          'line-color': '#2E5C8A',
+//             'line-width': 2,
+//             'line-opacity': 0.8
+//     }
+// });
 
     map.addSource('cities', {
         type: 'geojson',
