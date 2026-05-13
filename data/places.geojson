@@ -1,0 +1,122 @@
+{
+	"type": "FeatureCollection",
+	"name": "places",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n210323639",
+				"osm_id": "210323639",
+				"osm_type": "node",
+				"name": "Тайшет",
+				"year_first_mention": 1897,
+				"label": "Тайшет 1897",
+				"uic_ref": null,
+				"uic_name": null,
+				"operator:branch": null,
+				"operator": null,
+				"esr:user": null,
+				"train": null,
+				"railway": null,
+				"public_transport": null,
+				"barrier": null,
+				"power": null,
+				"wikipedia": "ru:Тайшет",
+				"wikidata": "Q196594",
+				"population:date": "2017-01-01",
+				"population": "33364",
+				"place": "town",
+				"official_status": "ru:город",
+				"name:zh": "泰谢特",
+				"name:vi": "Tayshet",
+				"name:tr": "Tayşet",
+				"name:tl": "Tayshet",
+				"name:sr": "Тајшет",
+				"name:ru": "Тайшет",
+				"name:ro": "Taișet",
+				"name:pl": "Tajszet",
+				"name:nn": "Tajsjet",
+				"name:nl": "Tajsjet",
+				"name:nb": "Tajsjet",
+				"name:lt": "Taišetas",
+				"name:ko": "타이셰트",
+				"name:ja": "タイシェト",
+				"name:it": "Tajšet",
+				"name:hu": "Tajset",
+				"name:hr": "Tajšet",
+				"name:fr": "Taïchet",
+				"name:fi": "Taišet",
+				"name:fa": "تایشت",
+				"name:et": "Taišet",
+				"name:es": "Taishet",
+				"name:eo": "Tajŝet",
+				"name:en": "Tayshet",
+				"name:de": "Taischet",
+				"name:da": "Tajsjet",
+				"name:cs": "Tajšet",
+				"name:ca": "Taixet",
+				"name:be": "Тайшэт",
+				"name:az": "Tayşet",
+				"name:ar": "تايشت",
+				"is_in": "Иркутская область",
+				"int_name": "Tayshet",
+				"addr:region": "Иркутская область",
+				"addr:postcode": "665000",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.996963,
+					55.939789
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Бирюсинское",
+				"year_first_mention": 1760,
+				"year_disappeared": "начало 19 века",
+				"label": "Бирюсинское 1760",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.806758,
+					55.990122
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n1441741658",
+				"osm_id": "1441741658",
+				"osm_type": "node",
+				"name": "Бирюса",
+				"year_first_mention": 1829,
+				"label": "Бирюса 1829",
+				"wikipedia": "ru:Бирюса (Иркутская область)",
+				"wikidata": "Q16015613",
+				"population:date": "2010-10-14",
+				"population": "561",
+				"place": "village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.891251,
+					55.989468
+				]
+			}
+		}
+	]
+}

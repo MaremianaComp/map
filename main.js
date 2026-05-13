@@ -1,16 +1,17 @@
 // Инициализируем карту
 const map = new maplibregl.Map({
   container: 'map',
-style: "https://raw.githubusercontent.com/gtitov/basemaps/refs/heads/master/voyager-nolabels.json",
+style: "https://raw.githubusercontent.com/gtitov/basemaps/refs/heads/master/voyager.json",
 //   style: {
 //    "version": 8,
 //    "sources": {},
 //    "layers": []
 //  },
-  center: [98, 55],
-  zoom: 4,
+  center: [97.9652, 55.9562],
+  zoom: 10.6,//
 // maxZoom: 12,
     minZoom: 2,
+hash: true,
 });
 
 map.on('load', () => {
@@ -146,6 +147,71 @@ map.on('load', () => {
         },
         filter: ['>=', ['get', 'POP_MAX'], 1000000]
     });
+
+
+
+	// Селения
+
+map.addSource('places', {
+    type: 'geojson',
+    data: './data/places.geojson'
+});
+
+// Кружок (точка)
+map.addLayer({
+    id: 'places-points',
+    type: 'circle',
+    source: 'places',
+    paint: {
+'circle-radius': [
+    'interpolate', ['linear'], ['get', 'year_first_mention'],
+    1700, 8,    // старые селения — маленькие точки
+    1800, 6,    // средние — побольше
+    1900, 4     // новые — крупные
+],
+        'circle-color': [
+    'match',
+    ['get', 'place_type'],
+    'disappeared_village', '#b0b0b0',  // серый цвет для исчезнувших
+    '#FFA07A'                           // обычный цвет для существующих
+],
+'circle-opacity': [
+    'match',
+    ['get', 'place_type'],
+    'disappeared_village', 0.6,         // полупрозрачные
+    1.0
+],
+'circle-stroke-color': '#000000',  // чёрный цвет обводки
+        'circle-stroke-width': 1         // толщина обводки (можно 1 или 2)
+    }
+});
+
+// Плашка с названием и годом
+map.addLayer({
+    id: 'places-labels',
+    type: 'symbol',
+    source: 'places',
+    layout: {
+        'text-field': ['get', 'label'],
+        'text-font': ['Open Sans Semibold'],
+        'text-size': 16,
+        'text-offset': [0.6, 0],
+        'text-anchor': 'left',
+        'text-justify': 'left',
+        'text-max-width': 20
+    },
+    paint: {
+        'text-color': '#1a1a1a',
+        'text-halo-color': '#fbf8f3',
+        'text-halo-width': 4,
+        'text-halo-blur': 1,
+		'text-translate': [1, 1],             // сдвиг тени (имитация)
+    	'text-translate-anchor': 'viewport'
+    }
+});
+
+
+
 
  // ИНТЕРАКТИВНОСТЬ
     // Курсоры
