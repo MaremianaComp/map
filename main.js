@@ -223,98 +223,93 @@ map.addLayer({
         map.getCanvas().style.cursor = '';
     });
 
-    map.on('mouseenter', 'cities-layer', () => {
+	map.on('mouseenter', 'cities-layer', () => {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-    map.on('mouseenter', 'cities-large', () => {
+	map.on('mouseenter', 'places-points', () => {
         map.getCanvas().style.cursor = 'pointer';
     });
-
-    map.on('mouseleave', 'cities-layer', () => {
+    map.on('mouseleave', 'places-points', () => {
         map.getCanvas().style.cursor = '';
     });
 
-    map.on('mouseleave', 'cities-large', () => {
+map.on('mouseenter', 'places-labels', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'places-labels', () => {
         map.getCanvas().style.cursor = '';
     });
 
-	  // Попапы для стран
-    map.on('click', 'countries-layer', (e) => {
-        if (e.features && e.features.length > 0) {
-            const props = e.features[0].properties;
-            new maplibregl.Popup({
-                className: 'custom-popup',
-                closeButton: true,
-                closeOnClick: false
-            })
-            .setLngLat(e.lngLat)
-            .setHTML(`
-                <div class="country-popup">
-                    <h3>${props.NAME_RU || props.NAME}</h3>
-                    <div class="popup-info">
-                        <span class="label">Население:</span>
-                        <span class="value">${(props.POP_EST || 0).toLocaleString()} чел.</span>
-                    </div>
-                    <div class="popup-info">
-                        <span class="label">Континент:</span>
-                        <span class="value">${props.CONTINENT || 'не указан'}</span>
-                    </div>
-                    <div class="popup-info">
-                        <span class="label">Экономика:</span>
-                        <span class="value">${props.ECONOMY ? props.ECONOMY.split(':')[1] || props.ECONOMY : 'нет данных'}</span>
-                    </div>
-                </div>
-            `)
-            .addTo(map);
-        }
-    });
 
-    // Попапы для малых городов
-    map.on('click', 'cities-layer', (e) => {
-        if (e.features && e.features.length > 0) {
-            const props = e.features[0].properties;
-            new maplibregl.Popup({
-                className: 'city-popup',
-                closeButton: true,
-                closeOnClick: false
-            })
-            .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(`
-                <div class="city-popup-content">
-                    <h3>${props.NAME_RU || props.NAME}</h3>
-                    <div class="popup-info">
-                        <span class="label">Население:</span>
-                        <span class="value">${(props.POP_MAX || 0).toLocaleString()} чел.</span>
-                    </div>
-                </div>
-            `)
-            .addTo(map);
+// Попап
+// Попап для населённых пунктов (клик по точке или по названию)
+function showPopup(e) {
+    if (e.features && e.features.length > 0) {
+        const props = e.features[0].properties;
+
+        // Используем правильные поля из вашего places.geojson
+        const title = props.name || props.NAME_RU || 'Населённый пункт';
+        const year = props.year_first_mention;
+        const placeType = props.place_type;
+
+        // Формируем HTML
+        let html = `<div class="city-popup-content"><h3>${title}</h3>`;
+
+        if (year) {
+            html += `<div class="popup-info"><span class="label">Первое упоминание:</span><span class="value">${year} г.</span></div>`;
         }
-    });
+
+        if (placeType === 'disappeared_village') {
+            html += `<div class="popup-info"><span class="label">Статус:</span><span class="value">Исчезнувшее селение</span></div>`;
+        }
+
+        // Если есть ссылка на историю
+        if (props.history_url) {
+            html += `<div class="popup-info"><a href="${props.history_url}" target="_blank">📜 Подробная история →</a></div>`;
+        }
+
+        html += `</div>`;
+
+        new maplibregl.Popup({
+            className: 'city-popup',
+            closeButton: true,
+            closeOnClick: false
+        })
+        .setLngLat(e.features[0].geometry.coordinates)
+        .setHTML(html)
+        .addTo(map);
+    }
+}
+
+// Обработчик клика по точкам
+map.on('click', 'places-points', showPopup);
+
+// Обработчик клика по текстовым подписям (названиям)
+map.on('click', 'places-labels', showPopup);
 
     // Попапы для крупных городов
-    map.on('click', 'cities-large', (e) => {
-        if (e.features && e.features.length > 0) {
-            const props = e.features[0].properties;
-            new maplibregl.Popup({
-                className: 'city-popup large',
-                closeButton: true,
-                closeOnClick: false
-            })
-            .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML(`
-                <div class="city-popup-content">
-                    <h3>⭐ ${props.NAME_RU || props.NAME}</h3>
-                    <div class="popup-info">
-                        <span class="label">Население:</span>
-                        <span class="value">${(props.POP_MAX || 0).toLocaleString()} чел.</span>
-                    </div>
-                    <div class="popup-note">Крупный город-миллионник</div>
-                </div>
-            `)
-            .addTo(map);
-        }
-    });
+    // map.on('click', 'cities-large', (e) => {
+    //     if (e.features && e.features.length > 0) {
+    //         const props = e.features[0].properties;
+    //         new maplibregl.Popup({
+    //             className: 'city-popup large',
+    //             closeButton: true,
+    //             closeOnClick: false
+    //         })
+    //         .setLngLat(e.features[0].geometry.coordinates)
+    //         .setHTML(`
+    //             <div class="city-popup-content">
+    //                 <h3>⭐ ${props.NAME_RU || props.NAME}</h3>
+    //                 <div class="popup-info">
+    //                     <span class="label">Население:</span>
+    //                     <span class="value">${(props.POP_MAX || 0).toLocaleString()} чел.</span>
+    //                 </div>
+    //                 <div class="popup-note">Крупный город-миллионник</div>
+    //             </div>
+    //         `)
+    //         .addTo(map);
+    //     }
+    // });
 
 });
