@@ -252,22 +252,31 @@ function showPopup(e) {
         const title = props.name || props.NAME_RU || 'Населённый пункт';
         const year = props.year_first_mention;
         const placeType = props.place_type;
+const historyDoc = props.history_doc;
 
         // Формируем HTML
         let html = `<div class="city-popup-content"><h3>${title}</h3>`;
 
+ if (placeType === 'disappeared_village') {
+    html += `<div class="popup-info">
+
+	<span class="value">Исчезнувшее селение</span></div>`;
+}
+
         if (year) {
-            html += `<div class="popup-info"><span class="label">Первое упоминание:</span><span class="value">${year} г.</span></div>`;
+            html += `<div class="popup-info popup-info-string">
+			<span class="label">Год основания<br>(первого упоминания в документах):&nbsp;</span><span class="value">${year} г.</span>
+			<br>
+			<span class="label popup-doc">в ${historyDoc}</span>
+			</div>`;
         }
 
-        if (placeType === 'disappeared_village') {
-            html += `<div class="popup-info"><span class="label">Статус:</span><span class="value">Исчезнувшее селение</span></div>`;
-        }
+
 
         // Если есть ссылка на историю
         if (props.history_url) {
-            html += `<div class="popup-info"><a href="${props.history_url}" target="_blank">📜 Подробная история →</a></div>`;
-        }
+    html += `<div class="popup-link-btn"><a href="${props.history_url}" target="_blank" rel="noopener noreferrer">📜 Подробная история ↗</a></div>`;
+}
 
         html += `</div>`;
 

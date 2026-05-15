@@ -1,0 +1,37 @@
+{
+	"type": "FeatureCollection",
+	"name": "places",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n1441741658",
+				"osm_id": "1441741658",
+				"osm_type": "node",
+				"name": "Бирюса",
+				"year_first_mention": 1829,
+				"label": "Бирюса 1829",
+				"history_doc": "Дело по прошению д. Бирюсинской Канского острога Красноярского ведомства о постройке церкви во имя Николая Чудотворца",
+				"history_url": "http://mobiello.beget.tech/links/25",
+				"wikipedia": "ru:Бирюса (Иркутская область)",
+				"wikidata": "Q16015613",
+				"population:date": "2010-10-14",
+				"population": "561",
+				"place": "village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.891845,
+					55.993038
+				]
+			}
+		}
+	]
+}
