@@ -98,6 +98,67 @@
 					55.982284
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n191912193",
+				"osm_id": "191912193",
+				"osm_type": "node",
+				"name": "Канск",
+				"year_first_mention": 1636,
+				"label": "Канск 1636",
+				"history_doc": "Отписке красноярского воеводы: в Котовской земле, в Кану, острог поставлен во 145м году октября в 5 день. РГАДА. Ф. 214. Оп. 3. Столбец 84. Лист 137.",
+				"history_url": "https://vk.com/wall-36364492_4996",
+				"tourism": null,
+				"information": null,
+				"traffic_sign": null,
+				"wikipedia": "ru:Канск",
+				"wikidata": "Q144345",
+				"population:date": "2017-01-01",
+				"population": "90231",
+				"place": "town",
+				"official_status": "ru:город",
+				"name:zh": "坎斯克",
+				"name:vi": "Kansk",
+				"name:uk": "Канськ",
+				"name:tr": "Kansk",
+				"name:tl": "Kansk",
+				"name:sv": "Kansk",
+				"name:ru": "Канск",
+				"name:ro": "Kansk",
+				"name:pl": "Kańsk",
+				"name:nn": "Kansk",
+				"name:nl": "Kansk",
+				"name:nb": "Kansk",
+				"name:lt": "Kanskas",
+				"name:ko": "칸스크",
+				"name:ja": "カンスク",
+				"name:it": "Kansk",
+				"name:hu": "Kanszk",
+				"name:hr": "Kansk",
+				"name:fr": "Kansk",
+				"name:fi": "Kansk",
+				"name:fa": "کانسک",
+				"name:et": "Kansk",
+				"name:es": "Kansk",
+				"name:eo": "Kansk",
+				"name:en": "Kansk",
+				"name:de": "Kansk",
+				"name:cs": "Kansk",
+				"name:ca": "Kansk",
+				"name:ar": "كانسك",
+				"int_name": "Kansk",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.705693,
+					56.222678
+				]
+			}
 		}
 	]
 }
