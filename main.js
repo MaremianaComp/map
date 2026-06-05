@@ -105,14 +105,14 @@ map.on('load', () => {
     	paint: {
 			'circle-radius': [
     			'interpolate', ['linear'], ['get', 'year_first_mention'],
-    				1700, 8,    // старые селения — крупные точки
+    				1700, 10,    // старые селения — крупные точки
     				1800, 6,    // средние — побольше
     				1900, 4     // новые — маленькие
 				],
         	'circle-color': [
     			'match',
     			['get', 'place_type'],
-    			'disappeared_village', '#b0b0b0',  // серый цвет для исчезнувших
+    			'disappeared_village', '#7a8a99',  // цвет для исчезнувших
     			'#FFA07A'                           // обычный цвет для существующих
 				],
 			'circle-opacity': [
@@ -121,8 +121,8 @@ map.on('load', () => {
  			   'disappeared_village', 0.6,         // полупрозрачные
  			   1.0
 				],
-			'circle-stroke-color': '#000000',  // чёрный цвет обводки
-     	    'circle-stroke-width': 1         // толщина обводки (можно 1 или 2)
+			// 'circle-stroke-color': '#000000',  // чёрный цвет обводки
+     	    // 'circle-stroke-width': 1         // толщина обводки (можно 1 или 2)
    			 }
 	    });
 
@@ -135,19 +135,19 @@ map.on('load', () => {
   	      'text-field': ['get', 'label'],
   	      'text-font': ['Open Sans Semibold'],
  	       'text-size': 16,
- 	       'text-offset': [0.6, 0],
+ 	       'text-offset': [0.1, 0],
  	       'text-anchor': 'left',
  	       'text-justify': 'left',
  	       'text-max-width': 20
  	    },
- 	   paint: {
-     	   'text-color': '#1a1a1a',
-     	   'text-halo-color': '#fbf8f3',
-     	   'text-halo-width': 4,
-    	    'text-halo-blur': 1,
-				'text-translate': [1, 1],// сдвиг тени (имитация)
-    	'text-translate-anchor': 'viewport'
-   		 }
+ 	//    paint: {
+    //  	   'text-color': '#1a1a1a',
+    //  	   'text-halo-color': '#fbf8f3',
+    //  	   'text-halo-width': 4,
+    // 	    'text-halo-blur': 1,
+	// 			'text-translate': [1, 1],// сдвиг тени (имитация)
+    // 	'text-translate-anchor': 'viewport'
+   	// 	 }
 	});
 
  // ИНТЕРАКТИВНОСТЬ

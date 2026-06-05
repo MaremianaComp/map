@@ -11,6 +11,120 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n191912193",
+				"osm_id": "191912193",
+				"osm_type": "node",
+				"name": "Канск",
+				"year_first_mention": 1636,
+				"label": "Канск 1636",
+				"history_doc": "Отписке красноярского воеводы: в Котовской земле, в Кану, острог поставлен во 145м году октября в 5 день. РГАДА. Ф. 214. Оп. 3. Столбец 84. Лист 137.",
+				"history_url": "https://vk.com/wall-36364492_4996",
+				"tourism": null,
+				"information": null,
+				"traffic_sign": null,
+				"wikipedia": "ru:Канск",
+				"wikidata": "Q144345",
+				"population:date": "2017-01-01",
+				"population": "90231",
+				"place": "town",
+				"official_status": "ru:город",
+				"name:zh": "坎斯克",
+				"name:vi": "Kansk",
+				"name:uk": "Канськ",
+				"name:tr": "Kansk",
+				"name:tl": "Kansk",
+				"name:sv": "Kansk",
+				"name:ru": "Канск",
+				"name:ro": "Kansk",
+				"name:pl": "Kańsk",
+				"name:nn": "Kansk",
+				"name:nl": "Kansk",
+				"name:nb": "Kansk",
+				"name:lt": "Kanskas",
+				"name:ko": "칸스크",
+				"name:ja": "カンスク",
+				"name:it": "Kansk",
+				"name:hu": "Kanszk",
+				"name:hr": "Kansk",
+				"name:fr": "Kansk",
+				"name:fi": "Kansk",
+				"name:fa": "کانسک",
+				"name:et": "Kansk",
+				"name:es": "Kansk",
+				"name:eo": "Kansk",
+				"name:en": "Kansk",
+				"name:de": "Kansk",
+				"name:cs": "Kansk",
+				"name:ca": "Kansk",
+				"name:ar": "كانسك",
+				"int_name": "Kansk",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.705693,
+					56.222678
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n1372682490",
+				"osm_id": "1372682490",
+				"osm_type": "node",
+				"name": "Ирбейское",
+				"year_first_mention": 1745,
+				"label": "Ирбейское 1745",
+				"history_doc": "2-ой ревизии Красноярского уезда - вновь поселенная Ирбейская деревня. РГАДА ф.350 оп.2 д.1602",
+				"history_url": "https://sites.google.com/view/krasuezd/переписи/1745-2-ревизия#h.us8rhceda9c5",
+				"wikipedia": "ru:Ирбейское",
+				"wikidata": "Q13640146",
+				"population:date": "2010-10-14",
+				"population": "4687",
+				"place": "town",
+				"official_status": "ru:село",
+				"name:ru": "Ирбейское",
+				"name:pl": "Irbijskoje",
+				"name:ja": "イルベイスコエ",
+				"name:en": "Irbeyskoye",
+				"loc_name": "Ирбей",
+				"addr:region": "Красноярский край",
+				"addr:district": "Ирбейско-Саянский муниципальный округ",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.468983,
+					55.649603
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Бирюсинское",
+				"year_first_mention": 1760,
+				"year_disappeared": "начало 19 века",
+				"label": "Бирюсинское 1760",
+				"history_doc": "Деле по прошению о постройке церкви.",
+				"history_url": "http://mobiello.beget.tech/links/45",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.805862,
+					55.982284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n210323639",
 				"osm_id": "210323639",
 				"osm_type": "node",
@@ -77,86 +191,6 @@
 				"coordinates": [
 					97.996963,
 					55.939789
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Бирюсинское",
-				"year_first_mention": 1760,
-				"year_disappeared": "начало 19 века",
-				"label": "Бирюсинское 1760",
-				"history_doc": "Деле по прошению о постройке церкви.",
-				"history_url": "http://mobiello.beget.tech/links/45",
-				"place_type": "disappeared_village"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					97.805862,
-					55.982284
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"full_id": "n191912193",
-				"osm_id": "191912193",
-				"osm_type": "node",
-				"name": "Канск",
-				"year_first_mention": 1636,
-				"label": "Канск 1636",
-				"history_doc": "Отписке красноярского воеводы: в Котовской земле, в Кану, острог поставлен во 145м году октября в 5 день. РГАДА. Ф. 214. Оп. 3. Столбец 84. Лист 137.",
-				"history_url": "https://vk.com/wall-36364492_4996",
-				"tourism": null,
-				"information": null,
-				"traffic_sign": null,
-				"wikipedia": "ru:Канск",
-				"wikidata": "Q144345",
-				"population:date": "2017-01-01",
-				"population": "90231",
-				"place": "town",
-				"official_status": "ru:город",
-				"name:zh": "坎斯克",
-				"name:vi": "Kansk",
-				"name:uk": "Канськ",
-				"name:tr": "Kansk",
-				"name:tl": "Kansk",
-				"name:sv": "Kansk",
-				"name:ru": "Канск",
-				"name:ro": "Kansk",
-				"name:pl": "Kańsk",
-				"name:nn": "Kansk",
-				"name:nl": "Kansk",
-				"name:nb": "Kansk",
-				"name:lt": "Kanskas",
-				"name:ko": "칸스크",
-				"name:ja": "カンスク",
-				"name:it": "Kansk",
-				"name:hu": "Kanszk",
-				"name:hr": "Kansk",
-				"name:fr": "Kansk",
-				"name:fi": "Kansk",
-				"name:fa": "کانسک",
-				"name:et": "Kansk",
-				"name:es": "Kansk",
-				"name:eo": "Kansk",
-				"name:en": "Kansk",
-				"name:de": "Kansk",
-				"name:cs": "Kansk",
-				"name:ca": "Kansk",
-				"name:ar": "كانسك",
-				"int_name": "Kansk",
-				"addr:region": "Красноярский край",
-				"addr:country": "RU"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					95.705693,
-					56.222678
 				]
 			}
 		}
