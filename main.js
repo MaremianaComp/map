@@ -2,8 +2,8 @@
 const map = new maplibregl.Map({
 	container: 'map',
 	style: "https://raw.githubusercontent.com/gtitov/basemaps/refs/heads/master/voyager.json",
-	center: [96.919, 56.0339],
-	zoom: 8.99,
+	center: [96.7977, 55.9565],
+	zoom: 8.84,
 	minZoom: 2,
 	hash: true,
 });
