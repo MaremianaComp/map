@@ -125,6 +125,143 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n945223242",
+				"osm_id": "945223242",
+				"osm_type": "node",
+				"name": "Устьянск",
+				"year_first_mention": 1763,
+				"label": "Устьянск 1763",
+				"history_doc": "Деле по доношению о строительстве церкви.",
+				"history_url": "https://terrasibiria.tilda.ws/ustyansk",
+				"wikipedia": "ru:Устьянск",
+				"wikidata": "Q21103971",
+				"population:date": "2010-10-14",
+				"population": "908",
+				"place": "village",
+				"addr:region": "Красноярский край",
+				"addr:district": "Абанский район",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					96.016266,
+					56.522594
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n949573423",
+				"osm_id": "949573423",
+				"osm_type": "node",
+				"name": "Коха",
+				"year_first_mention": 1763,
+				"label": "Коха 1763",
+				"history_doc": "Деле по доношению о строительстве церкви.",
+				"history_url": "https://terrasibiria.tilda.ws/ustyansk",
+				"wikipedia": "ru:Коха",
+				"wikidata": "Q27468134",
+				"population:date": "2010-10-14",
+				"population": "90",
+				"place": "hamlet",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					96.3413472,
+					56.3489532
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n949573410",
+				"osm_id": "949573410",
+				"osm_type": "node",
+				"name": "Далай",
+				"year_first_mention": 1763,
+				"label": "Далай 1763",
+				"history_doc": "Деле по доношению о строительстве церкви.",
+				"history_url": "https://terrasibiria.tilda.ws/ustyansk",
+				"public_transport": null,
+				"uic_ref": null,
+				"train": null,
+				"railway": null,
+				"operator:branch": null,
+				"operator": null,
+				"name:ru": null,
+				"esr:user": null,
+				"wikipedia": "ru:Далай",
+				"wikidata": "Q27467751",
+				"population:date": "2010-10-14",
+				"population": "476",
+				"place": "village",
+				"name:ca": "Dalai",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.9022088,
+					56.2947426
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n949573626",
+				"osm_id": "949573626",
+				"osm_type": "node",
+				"name": "Курыш-Поповичи",
+				"year_first_mention": 1763,
+				"label": "Курыш-Поповичи 1763",
+				"history_doc": "Деле по доношению о строительстве церкви.",
+				"history_url": "https://terrasibiria.tilda.ws/ustyansk",
+				"wikipedia": "ru:Курыш-Поповичи",
+				"wikidata": "Q27467763",
+				"population:date": "2010-10-14",
+				"population": "78",
+				"place": "hamlet",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.7584217,
+					56.3430716
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Чипышева",
+				"year_first_mention": 1782,
+				"year_disappeared": "начало 19 века",
+				"label": "Чипышева 1782",
+				"history_doc": "4-ой Переписи податного населения.",
+				"history_url": "http://mobiello.beget.tech/links/46",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.2010,
+					56.6450
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n210323639",
 				"osm_id": "210323639",
 				"osm_type": "node",
