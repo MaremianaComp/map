@@ -243,6 +243,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"NAME": "Старый Акульшет",
+				"year_first_mention": 1781,
+				"label": "Старый Акульшет 1781",
+				"history_doc": "Ведомости имеющихся в Тобольской губернии церквей, о количестве имеющихся при них дворов и прихожан.",
+				"history_url": "http://mobiello.beget.tech/links/38",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "village",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "843",
+				"OSM_TYPE": "node",
+				"OSM_ID": 2002795845
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.069771,
+					56.015911
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Чипышева",
 				"year_first_mention": 1782,
 				"year_disappeared": "начало 19 века",
