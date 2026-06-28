@@ -243,6 +243,33 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n948003334",
+				"osm_id": "948003334",
+				"osm_type": "node",
+				"name": "Старая Пойма",
+				"year_first_mention": 1773,
+				"label": "Старая Пойма 1773",
+				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
+				"history_url": "https://ok.ru/group/70000006464446/topic/156036104479678",
+				"wikipedia": "ru:Старая Пойма",
+				"wikidata": "Q27469380",
+				"population:date": "2010-10-14",
+				"population": "186",
+				"place": "hamlet",
+				"addr:region": "Красноярский край",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					96.6381423,
+					56.1876401
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"NAME": "Старый Акульшет",
 				"year_first_mention": 1781,
 				"label": "Старый Акульшет 1781",
