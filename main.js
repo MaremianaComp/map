@@ -2,8 +2,8 @@
 const map = new maplibregl.Map({
 	container: 'map',
 	style: "https://raw.githubusercontent.com/gtitov/basemaps/refs/heads/master/voyager.json",
-	center: [97.125, 56.144],
-	zoom: 8.41,
+	center: [97.235, 57.084],
+	zoom: 6.91,
 	minZoom: 2,
 	hash: true,
 });
@@ -50,46 +50,46 @@ map.on('load', () => {
         }
     });
 
-    map.addSource('cities', {
-        type: 'geojson',
-        data: './data/cities.geojson'
-    });
+    // map.addSource('cities', {
+    //     type: 'geojson',
+    //     data: './data/cities.geojson'
+    // });
 
-    map.addLayer({
-        id: 'cities-layer',
-        type: 'circle',
-        source: 'cities',
-        paint: {
-            'circle-color': [
-                'match',
-                ['get', 'NAME'],
-                'Krasnoyarsk', '#FF6B6B',
-                '#FFA07A'
-            ],
-            'circle-radius': [
-                'match',
-                ['get', 'NAME'],
-                'Krasnoyarsk', 6,
-                4                  // обычный радиус для остальных
-            ]
-        },
-		filter: ['<', ['get', 'POP_MAX'], 1000000]
-    });
+    // map.addLayer({
+    //     id: 'cities-layer',
+    //     type: 'circle',
+    //     source: 'cities',
+    //     paint: {
+    //         'circle-color': [
+    //             'match',
+    //             ['get', 'NAME'],
+    //             'Krasnoyarsk', '#FF6B6B',
+    //             '#FFA07A'
+    //         ],
+    //         'circle-radius': [
+    //             'match',
+    //             ['get', 'NAME'],
+    //             'Krasnoyarsk', 6,
+    //             4                  // обычный радиус для остальных
+    //         ]
+    //     },
+	// 	filter: ['<', ['get', 'POP_MAX'], 1000000]
+    // });
 
 // Крупные города (население > 1 млн)
-    map.addLayer({
-        id: 'cities-large',
-        type: 'circle',
-        source: 'cities',
-        paint: {
-            'circle-color': '#E67E22',
-            'circle-radius': 8,
-            'circle-opacity': 0.9,
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#FFFFFF'
-        },
-        filter: ['>=', ['get', 'POP_MAX'], 1000000]
-    });
+    // map.addLayer({
+    //     id: 'cities-large',
+    //     type: 'circle',
+    //     source: 'cities',
+    //     paint: {
+    //         'circle-color': '#E67E22',
+    //         'circle-radius': 8,
+    //         'circle-opacity': 0.9,
+    //         'circle-stroke-width': 2,
+    //         'circle-stroke-color': '#FFFFFF'
+    //     },
+    //     filter: ['>=', ['get', 'POP_MAX'], 1000000]
+    // });
 
 	// Селения
 	map.addSource('places', {

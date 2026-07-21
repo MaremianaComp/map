@@ -72,6 +72,77 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n359635418",
+				"osm_id": "359635418",
+				"osm_type": "node",
+				"name": "Богучаны",
+				"year_first_mention": 1684,
+				"label": "Богучаны 1684",
+				"history_doc": "Деле по отписке енисейского воеводы о жителях, которые поселились по реке Тунгуске в Енисейском уезде. РГАДА. Ф.214 Оп.3 Столбец 747. Лист 97.",
+				"history_url": "https://troshchenko_n_e.tilda.ws/boguchany",
+				"wikipedia": "ru:Богучаны",
+				"wikidata": "Q890715",
+				"population:date": "2010-10-14",
+				"population": "11275",
+				"place": "town",
+				"official_status": "ru:село",
+				"name:uk": "Богучани",
+				"name:ru": "Богучаны",
+				"name:pl": "Boguczany",
+				"name:ja": "ボグチャヌイ",
+				"name:it": "Bogučany",
+				"name:hy": "Բոգուչանի",
+				"name:hu": "Bogucsani",
+				"name:fr": "Bogoutchany",
+				"name:es": "Boguchany",
+				"name:en": "Boguchany",
+				"name:de": "Bogutschany",
+				"name:bg": "Богучани",
+				"name:be": "Багучаны",
+				"name:ar": "بوغوتشاني",
+				"addr:region": "Красноярский край",
+				"addr:district": "Богучанский район",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.461578,
+					58.382816
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"full_id": "n945223273",
+				"osm_id": "945223273",
+				"osm_type": "node",
+				"name": "Хандальск",
+				"year_first_mention": 1687,
+				"label": "Хандальск 1687",
+				"history_doc": "Книге крестьянских дворов Енисейского уезда. РГАДА. Ф.214 Оп.1 Д.942 лл.148об.-150.",
+				"history_url": "https://terrasibiria.tilda.ws/handala_na_one",
+				"wikipedia": "ru:Хандальск",
+				"wikidata": "Q27442223",
+				"population:date": "2010-10-14",
+				"population": "222",
+				"place": "village",
+				"addr:region": "Красноярский край",
+				"addr:district": "Абанский район",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.1261731,
+					57.0917272
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n1372682490",
 				"osm_id": "1372682490",
 				"osm_type": "node",
