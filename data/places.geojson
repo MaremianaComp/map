@@ -314,6 +314,57 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"@id": "node/275806099",
+				"addr:country": "RU",
+				"addr:region": "Красноярский край",
+				"int_name": "Nazarovo",
+				"name": "Назарово",
+				"year_first_mention": 1769,
+				"label": "Назарово 1769",
+				"history_doc": "Исповедной росписи Сережской Покровской церкви. ГАКК Ф.592 Оп.1 Д.29, лл. 14-15.",
+				"history_url": "http://www.nazarovo-arhiv.ru/index.php/novosti-i-sobytiya/257-istoriya-obrazovaniya-nazarovo-nekotorye-fakty-na-osnove-arkhivnykh-dokumentov",
+				"name:ca": "Nazàrovo",
+				"name:en": "Nazarovo",
+				"name:hr": "Nazarovo",
+				"name:ja": "ナザロヴォ",
+				"name:lt": "Nazarovas",
+				"name:ru": "Назарово",
+				"official_status": "ru:город",
+				"place": "town",
+				"population": "45333",
+				"population:date": "2021",
+				"source:population": "wikipedia",
+				"wikidata": "Q163907",
+				"wikipedia": "ru:Назарово (Красноярский край)",
+				"@relations": [
+					{
+						"role": "label",
+						"rel": 3511831,
+						"reltags": {
+							"name": "Назарово",
+							"name:de": "Nasarowo",
+							"name:ja": "ナザロヴォ",
+							"place": "town",
+							"source": "cadastre",
+							"type": "multipolygon",
+							"wikidata": "Q163907",
+							"wikipedia": "de:Nasarowo"
+						}
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					90.417899,
+					56.019276
+				]
+			},
+			"id": "node/275806099"
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n948003334",
 				"osm_id": "948003334",
 				"osm_type": "node",
@@ -385,6 +436,33 @@
 					56.6450
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"@id": "node/945223241",
+				"addr:country": "RU",
+				"addr:district": "Абанский район",
+				"addr:region": "Красноярский край",
+				"name": "Бирюса",
+				"year_first_mention": 1782,
+				"label": "Бирюса 1782",
+				"history_doc": "Выписке из протокола Енисейской провинциальной канцелярии. РГАДА Фонд 428 Оп.1 Д.288 лл.1-3об.",
+				"history_url": "https://troshchenko_n_e.tilda.ws/zagadka#Pochet",
+				"place": "hamlet",
+				"population": "176",
+				"population:date": "2010-10-14",
+				"wikidata": "Q27413436",
+				"wikipedia": "ru:Бирюса (Красноярский край)"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					96.4945089,
+					57.1656066
+				]
+			},
+			"id": "node/945223241"
 		},
 		{
 			"type": "Feature",
