@@ -365,12 +365,41 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Еловое",
+				"year_first_mention": 1772,
+				"label": "Еловое 1772",
+				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
+				"history_url": "http://mobiello.beget.tech/links/30",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": "ru:деревня",
+				"PLACE": "hamlet",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "5",
+				"OSM_TYPE": "node",
+				"OSM_ID": 2002795821
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.770955,
+					56.0484082
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n948003334",
 				"osm_id": "948003334",
 				"osm_type": "node",
 				"name": "Старая Пойма",
-				"year_first_mention": 1773,
-				"label": "Старая Пойма 1773",
+				"year_first_mention": 1772,
+				"label": "Старая Пойма 1772",
 				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
 				"history_url": "https://ok.ru/group/70000006464446/topic/156036104479678",
 				"wikipedia": "ru:Старая Пойма",
@@ -392,7 +421,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"NAME": "Старый Акульшет",
+				"name": "Старый Акульшет",
 				"year_first_mention": 1781,
 				"label": "Старый Акульшет 1781",
 				"history_doc": "Ведомости имеющихся в Тобольской губернии церквей, о количестве имеющихся при них дворов и прихожан.",
