@@ -496,6 +496,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Еловое",
+				"year_first_mention": 1795,
+				"label": "Сполох 1795",
+				"history_doc": "Исповедной росписи Бирюсинского села Николаевской церкви Нижнеудинской округи Балаганского заказа Иркутской епархии.",
+				"history_url": "http://mobiello.beget.tech/links/27",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": "ru:деревня",
+				"PLACE": "hamlet",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "5",
+				"OSM_TYPE": "node",
+				"OSM_ID": 2002795821
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.775702,
+					55.960069
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n210323639",
 				"osm_id": "210323639",
 				"osm_type": "node",
