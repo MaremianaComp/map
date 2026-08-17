@@ -394,6 +394,25 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Ключи",
+				"year_first_mention": 1772,
+				"year_disappeared": "начало 19 века",
+				"label": "Ключи 1772",
+				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
+				"history_url": "http://mobiello.beget.tech/links/44",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.326579,
+					56.141125
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n948003334",
 				"osm_id": "948003334",
 				"osm_type": "node",
@@ -444,6 +463,25 @@
 				"coordinates": [
 					98.070894,
 					56.018107
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Мокошина",
+				"year_first_mention": 1781,
+				"year_disappeared": "начало 19 века",
+				"label": "Мокошина 1781",
+				"history_doc": "Ведомости имеющихся в Тобольской губернии церквей, о количестве имеющихся при них дворов и прихожан.",
+				"history_url": "http://mobiello.beget.tech/links/49",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.644832,
+					56.059836
 				]
 			}
 		},
@@ -548,6 +586,35 @@
 				"coordinates": [
 					98.230812,
 					56.144611
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Половино-Черемхово",
+				"year_first_mention": 1802,
+				"label": "Половино-Черемхово 1802",
+				"history_doc": "Плане селения Черемховского и его дачи Нижнеудинского уезда Иркутской губернии",
+				"history_url": "http://mobiello.beget.tech/links/42",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": "ru:село",
+				"PLACE": "village",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "776",
+				"OSM_TYPE": "node",
+				"OSM_ID": 1441741767
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.623337,
+					56.068188
 				]
 			}
 		},
