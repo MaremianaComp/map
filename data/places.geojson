@@ -534,6 +534,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Енисейка",
+				"year_first_mention": 1795,
+				"label": "Енисейка 1795",
+				"history_doc": "Исповедной росписи Бирюсинского села Николаевской церкви Нижнеудинской округи Балаганского заказа Иркутской епархии.",
+				"history_url": "http://mobiello.beget.tech/links/22",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "hamlet",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "25",
+				"OSM_TYPE": "node",
+				"OSM_ID": 2002795825
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.734428,
+					55.974667
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Сполох",
 				"year_first_mention": 1795,
 				"label": "Сполох 1795",
