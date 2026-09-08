@@ -143,6 +143,39 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n945163841",
+				"osm_id": "945163841",
+				"osm_type": "node",
+				"name": "Дзержинское",
+				"year_first_mention": 1735,
+				"label": "Дзержинское 1735",
+				"history_doc": "Описании Енисейского уезда Г. Ф. Миллером как Самойлова. РГАДА",
+				"history_url": "https://vk.ru/wall-144346210_10068",
+				"ford": null,
+				"wikipedia": "ru:Дзержинское (Красноярский край)",
+				"wikidata": "Q4160828",
+				"population:date": "2010-10-14",
+				"population": "7374",
+				"place": "town",
+				"official_status": "ru:село",
+				"name:ru": "Дзержинское",
+				"name:ja": "ジェルジンスコエ",
+				"name:en": "Dzerzhinskoye",
+				"addr:region": "Красноярский край",
+				"addr:district": "Дзержинско-Тасеевский муниципальный округ",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					95.22139,
+					56.838005
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n1372682490",
 				"osm_id": "1372682490",
 				"osm_type": "node",
