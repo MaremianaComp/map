@@ -398,6 +398,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Байроновка",
+				"year_first_mention": 1772,
+				"label": "Байроновка 1772",
+				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
+				"history_url": "http://mobiello.beget.tech/links/26",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "hamlet",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "228",
+				"OSM_TYPE": "node",
+				"OSM_ID": 1441741657
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.131817,
+					55.884582
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Еловое",
 				"year_first_mention": 1772,
 				"label": "Еловое 1772",
@@ -429,7 +458,7 @@
 			"properties": {
 				"name": "Ключи",
 				"year_first_mention": 1772,
-				"year_disappeared": "начало 19 века",
+				"year_disappeared": "начало 20 века",
 				"label": "Ключи 1772",
 				"history_doc": "Путешествии Палласа по разным провинциям Российского Государства. Часть третья. Половина первая.",
 				"history_url": "http://mobiello.beget.tech/links/44",
@@ -648,6 +677,25 @@
 				"coordinates": [
 					98.230812,
 					56.144611
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Луговая",
+				"year_first_mention": 1795,
+				"year_disappeared": "начало 19 века",
+				"label": "Луговая 1795",
+				"history_doc": "Исповедной росписи Бирюсинского села Николаевской церкви Нижнеудинской округи Балаганского заказа Иркутской епархии.",
+				"history_url": "http://mobiello.beget.tech/links/48",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.6833,
+					55.9455
 				]
 			}
 		},
