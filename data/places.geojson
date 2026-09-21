@@ -143,6 +143,34 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"full_id": "n945157880",
+				"osm_id": "945157880",
+				"osm_type": "node",
+				"name": "Малеево",
+				"year_first_mention": 1735,
+				"label": "Малеево 1735",
+				"history_doc": "Описании Енисейского уезда Г. Ф. Миллером как Масеева. РГАДА",
+				"history_url": "https://terrasibiria.tilda.ws/rukosuevy",
+				"wikipedia": "ru:Малеево (Красноярский край)",
+				"wikidata": "Q27456465",
+				"population:date": "2010-10-14",
+				"population": "144",
+				"place": "hamlet",
+				"addr:region": "Красноярский край",
+				"addr:district": "Богучанский район",
+				"addr:country": "RU"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.5356499,
+					57.4318245
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n945163841",
 				"osm_id": "945163841",
 				"osm_type": "node",
