@@ -550,6 +550,64 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Кондратьево",
+				"year_first_mention": 1782,
+				"label": "Кондратьево 1782",
+				"history_doc": "4-ой Переписи податного населения.",
+				"history_url": "http://mobiello.beget.tech/links/51",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "hamlet",
+				"A_CNTR": "RU",
+				"A_RGN": "Иркутская область",
+				"A_DSTRCT": "Тайшетский муниципальный округ",
+				"A_PSTCD": null,
+				"POPULATION": "190",
+				"OSM_TYPE": "node",
+				"OSM_ID": 1968082411
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.184692,
+					57.349693
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Бузыканово",
+				"year_first_mention": 1782,
+				"label": "Бузыканово 1782",
+				"history_doc": "4-ой Переписи податного населения.",
+				"history_url": "http://mobiello.beget.tech/links/39",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "village",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "346",
+				"OSM_TYPE": "node",
+				"OSM_ID": 2002795817
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.38266,
+					56.575027
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Чипышева",
 				"year_first_mention": 1782,
 				"year_disappeared": "начало 19 века",
