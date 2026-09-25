@@ -238,6 +238,25 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Петропавловка",
+				"year_first_mention": 1760,
+				"year_disappeared": "конец 20 века",
+				"label": "Петропавловка 1760",
+				"history_doc": "Деле о производстве в священники и определении в Петропавловскую церковь Чунской волости. ф.И156, оп.1, д.3013. ГА в г. Тобольске.",
+				"history_url": "http://mobiello.beget.tech/links/35",
+				"place_type": "disappeared_village"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.44409551223933,
+					57.159553614062155
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Бирюсинское",
 				"year_first_mention": 1760,
 				"year_disappeared": "начало 19 века",
@@ -678,6 +697,26 @@
 				]
 			},
 			"id": "node/945223241"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr:region": "Красноярский край",
+				"name": "Карабула",
+				"year_first_mention": 1782,
+				"label": "Карабула 1782",
+				"history_doc": "4-ой Переписи податного населения.",
+				"history_url": "https://proza.ru/2021/03/21/232",
+				"place": "hamlet"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					97.389537,
+					58.032810
+				]
+			},
+			"id": "node/103123919"
 		},
 		{
 			"type": "Feature",
