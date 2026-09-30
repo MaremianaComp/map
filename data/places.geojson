@@ -702,6 +702,26 @@
 			"type": "Feature",
 			"properties": {
 				"addr:region": "Красноярский край",
+				"name": "Выдрино",
+				"year_first_mention": 1782,
+				"label": "Выдрино 1782",
+				"history_doc": "4-ой Переписи податного населения.",
+				"history_url": "http://mobiello.beget.tech/links/54",
+				"place": "hamlet"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					99.0308910,
+					56.8373030
+				]
+			},
+			"id": "node/1530968761"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"addr:region": "Красноярский край",
 				"name": "Карабула",
 				"year_first_mention": 1782,
 				"label": "Карабула 1782",
