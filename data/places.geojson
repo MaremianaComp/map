@@ -143,6 +143,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Кондратьево",
+				"year_first_mention": 1735,
+				"label": "Кондратьево 1735",
+				"history_doc": "Описании Енисейского уезда Г. Ф. Миллером как Масеева. РГАДА",
+				"history_url": "http://mobiello.beget.tech/links/51",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "hamlet",
+				"A_CNTR": "RU",
+				"A_RGN": "Иркутская область",
+				"A_DSTRCT": "Тайшетский муниципальный округ",
+				"A_PSTCD": null,
+				"POPULATION": "190",
+				"OSM_TYPE": "node",
+				"OSM_ID": 1968082411
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.184692,
+					57.349693
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"full_id": "n945157880",
 				"osm_id": "945157880",
 				"osm_type": "node",
@@ -591,35 +620,6 @@
 				"coordinates": [
 					97.644832,
 					56.059836
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Кондратьево",
-				"year_first_mention": 1735,
-				"label": "Кондратьево 1735",
-				"history_doc": "4-ой Переписи податного населения.",
-				"history_url": "http://mobiello.beget.tech/links/51",
-				"NAME_EN": null,
-				"INT_NAME": null,
-				"NAME_RU": null,
-				"OFFICIAL_S": null,
-				"PLACE": "hamlet",
-				"A_CNTR": "RU",
-				"A_RGN": "Иркутская область",
-				"A_DSTRCT": "Тайшетский муниципальный округ",
-				"A_PSTCD": null,
-				"POPULATION": "190",
-				"OSM_TYPE": "node",
-				"OSM_ID": 1968082411
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					98.184692,
-					57.349693
 				]
 			}
 		},
