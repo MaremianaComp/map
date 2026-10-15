@@ -847,6 +847,35 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "Разгон",
+				"year_first_mention": 1797,
+				"label": "Разгон 1797",
+				"history_doc": "Записках путешествия из Сибири Радищева Александра",
+				"history_url": "https://radischev.lit-info.ru/radischev/dnevniki/zapiski-puteshestviya-iz-sibiri.htm",
+				"NAME_EN": null,
+				"INT_NAME": null,
+				"NAME_RU": null,
+				"OFFICIAL_S": null,
+				"PLACE": "village",
+				"A_CNTR": null,
+				"A_RGN": null,
+				"A_DSTRCT": null,
+				"A_PSTCD": null,
+				"POPULATION": "372",
+				"OSM_TYPE": "node",
+				"OSM_ID": 1449300791
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					98.3882542,
+					55.7164029
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "Половино-Черемхово",
 				"year_first_mention": 1802,
 				"label": "Половино-Черемхово 1802",
